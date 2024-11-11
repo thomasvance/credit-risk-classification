@@ -20,10 +20,10 @@ Results
    
    * Recall for 1 (high-risk loan): 0.95 – the model identified 95% of actual high-risk loans correctly.</br>
    </br>
-Summary</br>
-</br>
+Summary
+
 The logistic regression model performs exceptionally well, especially in identifying healthy loans with perfect precision and recall scores. It also has a high recall score for high-risk loans, capturing 95% of them. This high performance on both labels suggests the model is reliable for predicting loan risk in general.
-</br>
+
 Given that high recall for high-risk loans is critical (to minimize the risk of missing actual high-risk cases), this logistic regression model is highly suitable for the task. The model's balanced performance on both healthy and high-risk labels makes it the recommended choice.
-</br>
+
 This model would be ideal if the objective is to maintain high accuracy across both classes. However, if further focus on high-risk prediction accuracy is needed, additional tuning or alternative models could be explored.
