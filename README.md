@@ -7,22 +7,23 @@ The machine learning process involved multiple stages, including data preprocess
 
 Results
 
- *Machine Learning Model 1 (Logistic Regression):
+ * Machine Learning Model 1 (Logistic Regression):
 
-  *Accuracy: 0.99 – indicating that 99% of the predictions were correct.
-
-
-  *Precision for 0 (healthy loan): 1.00 – the model perfectly predicted 
-  healthy loans.</br>
-
-  *Recall for 0 (healthy loan): 1.00 – all actual healthy loans were correctly identified.</br>
-  
-  *Precision for 1 (high-risk loan): 0.87 – about 87% of loans predicted as high-risk were correct.</br>
-  
-  *Recall for 1 (high-risk loan): 0.95 – the model identified 95% of actual high-risk loans correctly.</br>
-Summary
+   * Accuracy: 0.99 – indicating that 99% of the predictions were correct.
+ 
+   * Precision for 0 (healthy loan): 1.00 – the model perfectly predicted 
+   healthy loans.</br>
+ 
+   * Recall for 0 (healthy loan): 1.00 – all actual healthy loans were correctly identified.</br>
+   
+   * Precision for 1 (high-risk loan): 0.87 – about 87% of loans predicted as high-risk were correct.</br>
+   
+   * Recall for 1 (high-risk loan): 0.95 – the model identified 95% of actual high-risk loans correctly.</br>
+   </br>
+Summary</br>
+</br>
 The logistic regression model performs exceptionally well, especially in identifying healthy loans with perfect precision and recall scores. It also has a high recall score for high-risk loans, capturing 95% of them. This high performance on both labels suggests the model is reliable for predicting loan risk in general.
-
+</br>
 Given that high recall for high-risk loans is critical (to minimize the risk of missing actual high-risk cases), this logistic regression model is highly suitable for the task. The model's balanced performance on both healthy and high-risk labels makes it the recommended choice.
-
+</br>
 This model would be ideal if the objective is to maintain high accuracy across both classes. However, if further focus on high-risk prediction accuracy is needed, additional tuning or alternative models could be explored.
