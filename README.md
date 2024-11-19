@@ -7,12 +7,12 @@ The machine learning process involved multiple stages, including data preprocess
 
 Results</br>
 </br>
-    *Machine Learning Model 1 (Logistic Regression):
+    * Machine Learning Model 1 (Logistic Regression):
     </br>
-        *Accuracy: 0.99 – indicating that 99% of the predictions were correct.
+        * Accuracy: 0.99 – indicating that 99% of the predictions were correct.
         </br>
 
-        *Precision for 0 (healthy loan): 1.00 – the model perfectly predicted 
+        * Precision for 0 (healthy loan): 1.00 – the model perfectly predicted 
         healthy loans.</br>
 
         *Recall for 0 (healthy loan): 1.00 – all actual healthy loans were correctly identified.</br>
