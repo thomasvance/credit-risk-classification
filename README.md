@@ -5,21 +5,9 @@ The data includes information about loan status, with the 0 label representing h
 
 The machine learning process involved multiple stages, including data preprocessing, splitting data into training and testing sets, and applying various classification algorithms. In particular, we used LogisticRegression to analyze how well the model can distinguish between high-risk and healthy loans based on historical loan data.
 
-<<<<<<< HEAD
-Results</br>
-</br>
-    * Machine Learning Model 1 (Logistic Regression):
-    </br>
-        * Accuracy: 0.99 – indicating that 99% of the predictions were correct.
-        </br>
-
-        * Precision for 0 (healthy loan): 1.00 – the model perfectly predicted 
-        healthy loans.</br>
-=======
 Results
 
  * Machine Learning Model 1 (Logistic Regression):
->>>>>>> 9a1eaab5e308674f83dac6647176a028a61487a7
 
    * Accuracy: 0.99 – indicating that 99% of the predictions were correct.
  
